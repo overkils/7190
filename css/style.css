@@ -510,6 +510,10 @@ body {
     .catalog__door {
         margin: 0 100px;
     }
+
+    .services__item:not(:last-child) {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -523,7 +527,7 @@ body {
     }
 
     .head__title {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .slickPrev {
@@ -546,7 +550,7 @@ body {
 
     .services__img {
         margin: 0 auto;
-        max-width: 57%;
+        max-width: 75%;
         margin-bottom: 20px;
     }
 
@@ -569,6 +573,8 @@ body {
 
     .help {
         background-image: none !important;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .help > .container {

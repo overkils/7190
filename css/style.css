@@ -76,6 +76,10 @@ body {
     fill: #f2742d;
 }
 
+.at-menu__item-phone {
+    display: none;
+}
+
 .head {
     padding-top: 130px;
     padding-bottom: 80px;
@@ -493,6 +497,7 @@ body {
     }
 
     .at-menu__item-phone {
+        display: block;
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: 24px;

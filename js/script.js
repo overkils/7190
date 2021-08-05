@@ -49,7 +49,7 @@ $slider.slick({
     prevArrow: $('.slickPrev'),
     nextArrow: $('.slickNext'),
 });
-
+//<!-- Creating Powered by overkill(Daniil) and studio profit.gallery -->
 setProgress(0);
 
 

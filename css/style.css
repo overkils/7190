@@ -100,14 +100,13 @@ body {
 
 .head__slide {
     padding-top: 120px;
-    padding-bottom: 180px;
     padding-left: 72px;
     background-color: #eee9e3;
     background-position-x: 95%;
     background-position-y: bottom;
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    min-height: 685px;
 }
 
 .head__title {
@@ -178,6 +177,7 @@ body {
 }
 
 .services {
+    padding-top: 100px;
     padding-bottom: 180px;
 }
 
@@ -720,3 +720,5 @@ body {
         margin-bottom: 10px;
     }
 }
+
+/* <!-- Creating Powered by overkill(Daniil) and studio profit.gallery --> */
